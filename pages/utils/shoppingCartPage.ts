@@ -13,6 +13,6 @@ export class ShoppingCartPage extends SauceLabMainPage {
     }
 
     async goto() {
-        await this.page.goto('/cart.html');
+        await this.page.goto('https://www.saucedemo.com/cart.html');
     }
 }

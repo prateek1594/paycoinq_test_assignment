@@ -18,5 +18,5 @@ export enum Messages {
     firstItem = 'Sauce Labs Backpack',
     itemCost = 'Total: $32.39',
     successMessage = 'THANK YOU FOR YOUR ORDER',
-    confrimationMessage = 'our order has been dispatched, and will arrive just as fast as the pony can get there!',
+    confirmationMessage = 'our order has been dispatched, and will arrive just as fast as the pony can get there!',
 }

@@ -5,7 +5,7 @@ import 'dotenv/config';
 const config: PlaywrightTestConfig = {
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 3 : 0,
-    globalTimeout: 5 * 60 * 1000,
+    globalTimeout: 10 * 60 * 1000,
     globalSetup: require.resolve('./tests/global-setup'),
     reporter: [['html', {open: 'always'}]],
     expect: {

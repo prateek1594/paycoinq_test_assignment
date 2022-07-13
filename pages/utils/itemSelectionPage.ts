@@ -14,6 +14,6 @@ export class ItemSelectionPage extends SauceLabMainPage {
     }
 
     async goto() {
-        await this.page.goto('/inventory.html');
+        await this.page.goto('https://www.saucedemo.com/inventory.html');
     }
 }

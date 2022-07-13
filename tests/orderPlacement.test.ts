@@ -41,9 +41,9 @@ test.describe('Placing a successfull order',() => {
 
         const completeOrderPage = new CompleteOrderPage(page);
         await expect(completeOrderPage.completeTitle).toContainText(Messages.successMessage);
-        await expect(completeOrderPage.completeMessage).toContainText(Messages.confrimationMessage);
+        await expect(completeOrderPage.completeMessage).toContainText(Messages.confirmationMessage);
         await completeOrderPage.homeBackButton.click();
-        await page.waitForURL('/invetory.html');
+        await page.waitForURL('https://www.saucedemo.com/invetory.html');
 
     });
 });
