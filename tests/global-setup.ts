@@ -12,7 +12,7 @@ async function globalSetup(config:FullConfig) {
     await loginPage.loginButton.click();
    
     // Saving the login information so that we can use them later on in our suite
-    await page.context().storageState({path : 'storageState.json'})
+    await page.context().storageState({path : 'storageState.json'});
     await browser.close();   
 }
 

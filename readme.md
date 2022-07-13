@@ -17,10 +17,13 @@ The website used for this assignment is a public website by [Saucelabs](https://
 ## Prerequisites 
 
 Following should be available on your machine 
+```
+
     - Node.js 
     - npm
     - playwright
 
+```
 ## How to run Tests
 
 - Check that you are in the correct project directory.
@@ -48,5 +51,6 @@ npx playwright test --grep @feature
 
     1. RESET App state does not return anything. On inspecting, even API call is did not happen.
     2. During Checkout, No checks for valid input is implemented. String can be passed in Zip Code while Numerics can be passed in Name.
+    3. No warning or error message when you logout from the website. You can even logout directly from the payment/cart page.
 
 

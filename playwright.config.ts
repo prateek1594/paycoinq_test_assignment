@@ -14,7 +14,8 @@ const config: PlaywrightTestConfig = {
     use: {
         trace: 'on-first-retry',
         screenshot: 'only-on-failure',
-        baseURL: process.env.BASE_URL ? process.env.BASE_URL: 'https://www.saucedemo.com'
+        baseURL: process.env.BASE_URL ? process.env.BASE_URL: 'https://www.saucedemo.com',
+        storageState:'storageState.json'
     },
     projects: [
         {
