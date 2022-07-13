@@ -1,0 +1,16 @@
+{
+  "name": "paycoinq_test_assignment",
+  "version": "1.0.0",
+  "description": "This framework tests the e2e functionality of a saucelab website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Prateek Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.2",
+    "playwright": "^1.23.2",
+    "dotenv" : "^2.0.1"
+  }
+}
