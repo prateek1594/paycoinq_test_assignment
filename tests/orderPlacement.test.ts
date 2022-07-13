@@ -43,7 +43,6 @@ test.describe('Placing a successfull order',() => {
         await expect(completeOrderPage.completeTitle).toContainText(Messages.successMessage);
         await expect(completeOrderPage.completeMessage).toContainText(Messages.confirmationMessage);
         await completeOrderPage.homeBackButton.click();
-        await page.waitForURL('https://www.saucedemo.com/invetory.html');
-
+        await expect(itemSelectionPage.itemList.first().locator('div.inventory_item_name')).toContainText(Messages.firstItem);
     });
 });
