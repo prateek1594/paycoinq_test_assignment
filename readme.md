@@ -53,4 +53,9 @@ npx playwright test --grep @feature
     2. During Checkout, No checks for valid input is implemented. String can be passed in Zip Code while Numerics can be passed in Name.
     3. No warning or error message when you logout from the website. You can even logout directly from the payment/cart page.
 
+## Future Improvements
+
+    1. Implementation of CI Pipeline using docker on `Circle CI` or `Jenkins`
+    2. Can add more test cases if functionality is implemented such as `User Regsitration`. This is currently missing.
+    3. Test with all the available `Username` and `Password`. Currently, Test is using only 1 correctly available `Username`
 
